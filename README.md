@@ -2,7 +2,7 @@
 
 ClientBrief is a responsive intake form for freelancers and small teams. It gathers project goals, scope, deliverables, requirements, budget, timing, and open questions into one readable project brief.
 
-**Live demo:** To be added after deployment  
+**Live demo:** [Open ClientBrief](https://client-brief-wdf-5618s-projects.vercel.app)  
 **Source code:** https://github.com/wdf-5618/client-brief
 
 ## Features
@@ -54,14 +54,14 @@ Avoid putting confidential client information into a public demo. A production v
 
 ## Manual test checklist
 
-- [ ] Fill the four required fields and check the browser validation.
-- [ ] Confirm the preview updates while typing and that empty sections are omitted.
-- [ ] Load the example brief and edit several fields.
-- [ ] Refresh and confirm that the draft restores in the same browser.
-- [ ] Copy the brief and paste it into a plain-text editor.
-- [ ] Export JSON and confirm it contains form data without contacting a server.
-- [ ] Print or save as PDF and confirm only the brief is printed.
-- [ ] Clear the form and confirm the saved browser draft is removed.
-- [ ] Check the layout on a narrow mobile screen.
+- [x] Fill the four required fields and check the browser validation.
+- [x] Confirm the preview updates while typing and that empty sections are omitted.
+- [x] Load the example brief and edit several fields.
+- [x] Refresh and confirm that the draft restores in the same browser.
+- [x] Confirm the plain-text brief is copied to the clipboard.
+- [x] Export JSON and confirm it contains form data without contacting a server.
+- [x] Generate a PDF and confirm the brief content is present while the form is excluded.
+- [x] Clear the form and confirm the saved browser draft is removed.
+- [x] Check the layout at a narrow mobile viewport and confirm there is no horizontal overflow.
 
-The live deployment and hands-on browser tests should be verified separately from source review.
+Smoke testing was performed against the public production URL with a headless browser. This covers the listed workflows but is not a substitute for ongoing testing on different devices and browsers.
