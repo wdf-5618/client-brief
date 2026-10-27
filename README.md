@@ -2,7 +2,7 @@
 
 ClientBrief is a responsive intake form for freelancers and small teams. It gathers project goals, scope, deliverables, requirements, budget, timing, and open questions into one readable project brief.
 
-**Live demo:** [Open ClientBrief](https://client-brief-wdf-5618s-projects.vercel.app)  
+**Live demo:** [Open ClientBrief](https://client-brief-liard.vercel.app)  
 **Source code:** https://github.com/wdf-5618/client-brief
 
 ## Features
